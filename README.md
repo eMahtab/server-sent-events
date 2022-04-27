@@ -7,3 +7,6 @@ Before making the decision to use server-sent events, we must take into account 
 1. It only allows data reception from the server (unidirectional)
 
 2. Events are limited to UTF-8 (no binary data)
+
+![Server Sent Events](sse.PNG?raw=true)
+
