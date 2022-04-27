@@ -10,3 +10,5 @@ Before making the decision to use server-sent events, we must take into account 
 
 ![Server Sent Events](sse.PNG?raw=true)
 
+## Headers
+Headers are required to keep the connection open. The Content-Type header is set to **'text/event-stream'** and the Connection header is set to **'keep-alive'**. The Cache-Control header is optional, set to **'no-cache'**. Additionally, the HTTP Status is set to 200 - the status code for a successful request.
